@@ -30,7 +30,7 @@
 
 ### 3) SAP ERP System Layer
 
-![Untitled](/image/Untitled.png)
+![Untitled](./image/Untitled.png)
 
  SAP ERP 하나의 시스템 안에는 3계층 구조로 이루어져있다.    
  Presentation Layer에서 사용자가 어떠한 이벤트를 발생시키면 Application Layer가 작동되며, Application Layer에선 Database Layer에 데이터를 요청하여 특정 작업을 수행한다.   
@@ -53,7 +53,7 @@
 > 
 >  위의 내용은 하나의 Application Server를 사용한다는 가정하에 작성한 것이고, 서버가 여러 대일 경우에는 조금 더 복잡해진다.    
 > 
-> ![Untitled1](/image/Untitled1.png)
+> ![Untitled1](./image/Untitled1.png)
 > 
 >  서버가 여러 대일 경우에는 ASCS(ABAP System Central Service)가 락 테이블 관리 및 로드밸런싱 관리 역할을 해주는데, ASCS를 포함하는 하나의 서버를 PAS(Primary Application Server)라 하고, 그 외 나머지 서버들을 AAS(Additional Application Server)라고 한다.    
 >  ASCS의 ES(Enqueue Server)에서는 서버간의 락을 방지하기 위해 통합 락 테이블을 관리하고, MS(Message Server)에서는 서버들의 DP와 통신하면서 로드밸런싱을 관리한다.    
@@ -68,7 +68,7 @@
  위에서 하나의 시스템 내에 존재하는 3계층 구조를 살펴보았다면, 이번에는 이 시스템을 몇 개 사용해야 적당한가에 대해서 말해보고자 한다.    
  대부분의 사용자는 하나의 시스템만을 사용하지 않고, 여러 시스템을 구축해둔다. 주된 목적은 안정성이다. 운영 중인 시스템 내에 문제가 생기지 않도록, 다른 시스템에서 개발 및 테스트를 진행함으로써 안정성을 확보한다. SAP사에서 권장하는 건 3-System Landscape이다.    
 
-![Untitled2](/image/Untitled2.png)
+![Untitled2](./image/Untitled2.png)
 
  - 3-System Landscape : 개발, 테스트, 운영 목적으로 3개의 시스템을 구축해 사용
  - 2-System Landscape : 개발+테스트, 운영 목적으로 2개의 시스템을 구축해 사용
