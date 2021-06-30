@@ -13,7 +13,9 @@
 > [2. BC란?](https://github.com/KaJaeHyeob/SAP_BC#2-bc%EB%9E%80)    
 > > [1) BC](https://github.com/KaJaeHyeob/SAP_BC#1-bc)    
 > > [2) BC 업무](https://github.com/KaJaeHyeob/SAP_BC#2-bc-%EC%97%85%EB%AC%B4)    
-> > [3) T-code]()    
+> > [3) BC 주요 T-code]()    
+> > [4) BC 주요 ABAP Program 및 Function Module]()
+> > [5) BC 주요 Table 및 View]()
 
 </div>
 </details>
@@ -49,7 +51,7 @@
 >  - B : "Background WP"의 약자로, 작동 프로그램 및 변수와 실행시각 등을 설정하여 사용자와 추가적인 상호작용이 필요없는 작업을 수행    
 >  - S : "Spool WP"의 약자로, 출력 요청 시 데이터를 프린터에 전달하는 작업을 수행    
 > 
->  위의 내용은 하나의 Application Server를 사용한다는 가정하에 작성한 것이고, 서버가 여러 대일 경우에는 조금 더 복잡해진다.    
+>  위의 내용은 하나의 Application Server를 사용한다는 가정하에 작성한 것이고, 서버가 여러 대일 경우에는 아래 그림과 같이 조금 더 복잡해진다.    
 > 
 > ![Untitled1](./image/Untitled1.png)
 > 
@@ -76,16 +78,16 @@
 
 -----
 
-## 2. BC란?
+## 2. BC란?    
 
-### 1) BC
+### 1) BC    
 
  직무명으로써의 BC는 "Basis Consultant"의 약어로, SAP ERP의 관리자를 의미하며, 모든 시스템 환경을 총괄하는 역할을 맡는다. 모듈명의로써의 BC는 "Basis Component"의 약어로, BC 직무를 수행하기 위한 SAP ERP 내의 코어 모듈이다.    
  "모듈"이라는 것은 SAP ERP 내의 주요 업무 분장에 따라 나눠놓은 프로그램 모음이라고 생각하면 이해하기 쉽다. 모듈 목록은 아래 "모듈 목록"을 참고하면 되겠다.    
 
 <details>
 <summary>모듈 목록</summary>
-<div markdown="1">  
+<div markdown="1">
 
 >  코어 모듈
 >  - MM : "Material Management"의 약어로, 구매 및 자재 관리 모듈
@@ -109,12 +111,131 @@
 </div>
 </details>
 
-### 2) BC 업무
+### 2) BC 업무    
 
  BC는 SAP ERP의 관리자로 시스템 환경을 총괄하기 때문에, 개발 업무가 주를 이루는 다른 모듈과 다르게 운영 및 관리 업무가 대부분을 차지한다.    
  주요 업무 목록은 아래 "업무 목록"을 참고하면 되겠으며, 각 업무에 대한 메뉴얼을 작성하여 링크를 추가적으로 생성할 계획이다.    
+
+<details>
+<summary>업무 목록</summary>
+<div markdown="1">
+
+>  - System Install
+>  - System Landscape 디자인/관리
+>  - System 업그레이드 전략 수립/수행
+>  - Client 및 User 관리
+>  - CTS(Change and Transport System) 관리
+>  - Snote 및 SP 관리
+>  - 배치잡(Batch Job) 관리
+>  - Spool 관리
+>  - Performance 관리
+>  - Parameter 관리
+>  - SAP Router 설치 및 OSS(Online Service System) 관리
+>  - License 관리
+>  - Developer & Object Key 관리
+>  - Solman(Solution Manager) 설치/관리
+>  - 런타임 에러 대응
+>  - Database 백업 관리
+
+</div>
+</details>
  
-### 3) T-code
+### 3) BC 주요 T-code    
 
  T-code는 "Transaction code"의 약어로, 특정 트랜잭션을 실행시키는 단축 코드를 의미한다. 트랜잭션은 특정 프로그램 및 변수를 설정하여 생성할 수 있다.    
  BC가 사용하는 주요 T-code 목록은 아래 "T-code 목록"을 참고하면 되겠다.    
+
+<details>
+<summary>T-code 목록</summary>
+<div markdown="1">
+
+>  - AL08 : 전체 서버 접속자 조회
+>  - AL11 : SAP 디렉토리 조회
+>  - DB01 : DB 락 조회/분석
+>  - DB02 : DB 성능 및 용량 조회
+>  - DB13 : DB 백업 관리
+>  - PFCG : Role 관리
+>  - PFUD : Mass User Comparison 실행
+>  - RSUSR003 : Standard User 조회
+>  - RSUSR200 : User 마지막 로그인 기록 조회
+>  - RZ11 : 파라미터 조회
+>  - RZ12 : RFC 로그온 그룹 관리
+>  - SAT : 런타임 분석 조회
+>  - SCC1 : TR 사용 Client Copy
+>  - SCC3 : Client Copy 진행상황 조회
+>  - SCC4 : Client 정보 조회
+>  - SCC9 : RFC 사용 Remote Client Copy
+>  - SCCL : Local Client Copy
+>  - SCU3 : 테이블 변경 이력 조회
+>  - SE01 : TR 조회/릴리즈 (Transport Request Organizer)
+>  - SE03 : TR 관련 툴 조회/실행 (Transport Request Organizer Tools)
+>  - SE09 : TR 조회/릴리즈 (Transport Request Organizer)
+>  - SE11 : 테이블 뷰 정보 조회/관리 (ABAP Dictionary)
+>  - SE16 : 테이블 조회
+>  - SE30 : 런타임 조회/분석
+>  - SE37 : Function Module 생성/조회/관리/실행 (Function Builder)
+>  - SE38 : ABAP Program 생성/조회/관리/실행 (ABAP Editor)
+>  - SE80 : Object 조회 (Object Navigator)
+>  - SE81 : 애플리케이션 계층 조회
+>  - SE90 : Object 조회 (Object Navigator)
+>  - SE91 : 메시지 관리
+>  - SE93 : T-code 생성/조회/관리 (Maintain Transaction)
+>  - SM01 : T-code 락 관리
+>  - SM02 : 시스템 메시지
+>  - SM04 : 서버별 접속자 조회
+>  - SM12 : 락 목록 조회
+>  - SM13 : 업데이트 시스템 조회
+>  - SM21 : 시스템 로그 조회
+>  - SM30 : 테이블 뷰 관리
+>  - SM31 : 테이블 뷰 관리
+>  - SM36 : 배치잡 생성
+>  - SM37 : 배치잡 조회
+>  - SM50 : 서버별 WP 조회/관리
+>  - SM51 : 서버 목록 및 상태 조회
+>  - SM59 : RFC 관리
+>  - SM66 : 전체 서버 WP 조회/관리
+>  - SMGW : 게이트웨이 조회
+>  - SMLG : 로그온 그룹 관리
+>  - SPRO_ADMIN : 프로젝트 관리
+>  - ST02 : 메모리 사용현황 조회
+>  - ST05 : 성능 추적 기능 관리 (Performance Trace)
+>  - ST22 : 런타임 에러 조회/분석
+>  - STMS : TR 관리 시스템 (Transport Management System)
+>  - SU01 : User 생성/관리
+>  - SU10 : Mass User 관리
+>  - SU53 : User 최근 권한 성공 및 실패 내역 조회
+>  - SUIM : 조건별 User 목록 조회 (User Information System)
+>  - TOGL : SM59 내 RFC 조회 후 실행 가능한 RFC 강제 편집
+
+</div>
+</details>
+
+### 4) BC 주요 ABAP Program 및 Function Module    
+
+ 트랜잭션화 시키지 않은 ABAP Program 및 Function Module 중에 종종 사용하는 항목들을 추가로 정리해보고자 한다. ABAP Program은 T-code SE38에서 실행 가능하고, Function Module은 T-code SE37에서 테스트 가능하다.    
+ BC가 사용하는 주요 항목은 아래 "ABAP Program 목록"과 "Function Module 목록"을 참고하면 되겠다.    
+
+<details>
+<summary>ABAP Program 목록</summary>
+<div markdown="1">
+
+>  - RSCCEXPT : Client Copy 예외 테이블 설정
+
+</div>
+</details>
+
+<details>
+<summary>Function Module 목록</summary>
+<div markdown="1">
+
+>  - MENU_FAVORITE_DOWNLOAD : 특정 User로부터 즐겨찾기 항목 다운로드
+>  - MENU_FAVORITE_UPLOAD : 특정 User에게 즐겨찾기 항목 업로드
+>  - SCCR_LOCK_CLIENT : Client 잠금 설정
+>  - SCCR_UNLOCK_CLIENT : Client 잠금 해제
+
+</div>
+</details>
+
+### 5) BC 주요 Table 및 View
+
+
