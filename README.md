@@ -13,6 +13,7 @@
 > [2. BC란?](https://github.com/KaJaeHyeob/SAP_BC#2-bc%EB%9E%80)    
 > > [1) BC](https://github.com/KaJaeHyeob/SAP_BC#1-bc)    
 > > [2) BC 업무](https://github.com/KaJaeHyeob/SAP_BC#2-bc-%EC%97%85%EB%AC%B4)    
+> > [3) T-code]()    
 
 </div>
 </details>
@@ -21,8 +22,7 @@
 
 ### 1) SAP
 
- "System & Application & Products in data processing"의 약어로, 업무용 솔루션 제작 회사이다.    
- 우리가 흔히 말하는 SAP는 사실상 "SAP ERP"라는 SAP사의 ERP 제품 이름이다.    
+ "System & Application & Products in data processing"의 약어로, 업무용 솔루션 제작 회사이다. 우리가 흔히 말하는 SAP는 사실상 "SAP ERP"라는 SAP사의 ERP 제품 이름이다.    
 
 ### 2) ERP
 
@@ -32,16 +32,14 @@
 
 ![Untitled](./image/Untitled.png)
 
- SAP ERP 하나의 시스템 안에는 3계층 구조로 이루어져있다.    
- Presentation Layer에서 사용자가 어떠한 이벤트를 발생시키면 Application Layer가 작동되며, Application Layer에선 Database Layer에 데이터를 요청하여 특정 작업을 수행한다.   
- 더 자세한 작동방식이 궁금하다면, 아래의 "더보기"란을 참고하면 되겠다.   
+ SAP ERP 하나의 시스템 안에는 위와 같이 3계층 구조로 이루어져있다.    
+ Presentation Layer에서 사용자가 어떠한 이벤트를 발생시키면 Application Layer가 작동되며, Application Layer에선 Database Layer에 데이터를 요청하여 특정 작업을 수행한다. 더 자세한 작동방식이 궁금하다면, 아래의 "더보기"를 참고하면 되겠다.   
 
 <details>
 <summary>더보기</summary>
 <div markdown="1">
 
->  3계층 중에서 어렵게 느껴질 수도 있는 부분인 Application Layer에 대해서 좀 더 자세하게 작성해보도록 하겠다.    
->  BC 직무가 아니라면 굳이 볼 필요 없는 부분이다.    
+>  3계층 중에서 어렵게 느껴질 수도 있는 부분인 Application Layer에 대해서 좀 더 자세하게 작성해보도록 하겠다. BC 직무가 아니라면 굳이 볼 필요 없는 부분이다.    
 > 
 >  Application Layer의 중요한 구성요소 두 가지는 DP(Dispatcher), WP(Work Process)이다.    
 >  DP는 사용자가 발생시킨 이벤트와 부합하는 WP로 해당 작업을 분배시키는 역할을 한다.    
@@ -82,12 +80,11 @@
 
 ### 1) BC
 
- 직무명으로써의 BC는 "Basis Consultant"의 약어로, SAP ERP의 관리자를 의미하며, 모든 시스템 환경을 총괄하는 역할을 맡는다.    
- 모듈명의로써의 BC는 "Basis Component"의 약어로, BC 직무를 수행하기 위한 SAP ERP 내의 코어 모듈이다.    
- "모듈"이라는 것은 SAP ERP 내의 주요 업무 분장에 따라 나눠놓은 프로그램 모음이라고 생각하면 이해하기 쉽다. 모듈 목록은 "더보기"란에 작성해두겠다.    
+ 직무명으로써의 BC는 "Basis Consultant"의 약어로, SAP ERP의 관리자를 의미하며, 모든 시스템 환경을 총괄하는 역할을 맡는다. 모듈명의로써의 BC는 "Basis Component"의 약어로, BC 직무를 수행하기 위한 SAP ERP 내의 코어 모듈이다.    
+ "모듈"이라는 것은 SAP ERP 내의 주요 업무 분장에 따라 나눠놓은 프로그램 모음이라고 생각하면 이해하기 쉽다. 모듈 목록은 아래 "모듈 목록"을 참고하면 되겠다.    
 
 <details>
-<summary>더보기</summary>
+<summary>모듈 목록</summary>
 <div markdown="1">  
 
 >  코어 모듈
@@ -115,4 +112,9 @@
 ### 2) BC 업무
 
  BC는 SAP ERP의 관리자로 시스템 환경을 총괄하기 때문에, 개발 업무가 주를 이루는 다른 모듈과 다르게 운영 및 관리 업무가 대부분을 차지한다.    
- 주요 업무 목록은 아래와 같으며, 각 업무에 대한 메뉴얼을 작성하여 링크를 생성할 계획이다.    
+ 주요 업무 목록은 아래 "업무 목록"을 참고하면 되겠으며, 각 업무에 대한 메뉴얼을 작성하여 링크를 추가적으로 생성할 계획이다.    
+ 
+### 3) T-code
+
+ T-code는 "Transaction code"의 약어로, 특정 트랜잭션을 실행시키는 단축 코드를 의미한다. 트랜잭션은 특정 프로그램 및 변수를 설정하여 생성할 수 있다.    
+ BC가 사용하는 주요 T-code 목록은 아래 "T-code 목록"을 참고하면 되겠다.    
