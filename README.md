@@ -13,9 +13,9 @@
 > [2. BC란?](https://github.com/KaJaeHyeob/SAP_BC#2-bc%EB%9E%80)    
 > > [1) BC](https://github.com/KaJaeHyeob/SAP_BC#1-bc)    
 > > [2) BC 업무](https://github.com/KaJaeHyeob/SAP_BC#2-bc-%EC%97%85%EB%AC%B4)    
-> > [3) BC 주요 T-code]()    
-> > [4) BC 주요 ABAP Program 및 Function Module]()
-> > [5) BC 주요 Table 및 View]()
+> > [3) BC 주요 T-code](https://github.com/KaJaeHyeob/SAP_BC#3-bc-%EC%A3%BC%EC%9A%94-t-code)    
+> > [4) BC 주요 ABAP Program 및 Function Module](https://github.com/KaJaeHyeob/SAP_BC#4-bc-%EC%A3%BC%EC%9A%94-abap-program-%EB%B0%8F-function-module)
+> > [5) BC 주요 Table 및 View](https://github.com/KaJaeHyeob/SAP_BC#5-bc-%EC%A3%BC%EC%9A%94-table-%EB%B0%8F-view)
 
 </div>
 </details>
