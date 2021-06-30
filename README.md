@@ -14,8 +14,8 @@
 > > [1) BC](https://github.com/KaJaeHyeob/SAP_BC#1-bc)    
 > > [2) BC 업무](https://github.com/KaJaeHyeob/SAP_BC#2-bc-%EC%97%85%EB%AC%B4)    
 > > [3) BC 주요 T-code](https://github.com/KaJaeHyeob/SAP_BC#3-bc-%EC%A3%BC%EC%9A%94-t-code)    
-> > [4) BC 주요 ABAP Program 및 Function Module](https://github.com/KaJaeHyeob/SAP_BC#4-bc-%EC%A3%BC%EC%9A%94-abap-program-%EB%B0%8F-function-module)
-> > [5) BC 주요 Table 및 View](https://github.com/KaJaeHyeob/SAP_BC#5-bc-%EC%A3%BC%EC%9A%94-table-%EB%B0%8F-view)
+> > [4) BC 주요 ABAP Program 및 Function Module](https://github.com/KaJaeHyeob/SAP_BC#4-bc-%EC%A3%BC%EC%9A%94-abap-program-%EB%B0%8F-function-module)    
+> > [5) BC 주요 Table 및 View](https://github.com/KaJaeHyeob/SAP_BC#5-bc-%EC%A3%BC%EC%9A%94-table-%EB%B0%8F-view)    
 
 </div>
 </details>
@@ -116,13 +116,13 @@
 ### 2) BC 업무    
 
  BC는 SAP ERP의 관리자로 시스템 환경을 총괄하기 때문에, 개발 업무가 주를 이루는 다른 모듈과 다르게 운영 및 관리 업무가 대부분을 차지한다.    
- 주요 업무 목록은 아래 "업무 목록"을 참고하면 되겠으며, 각 업무에 대한 메뉴얼을 작성하여 링크를 추가적으로 생성할 계획이다.    
+ BC 업무 목록은 아래 "업무 목록"을 참고하면 되겠으며, 각 업무에 대한 메뉴얼을 작성하여 링크를 추가적으로 생성할 계획이다.    
 
 <details>
 <summary>업무 목록</summary>
 <div markdown="1">
  
->  주요 업무
+>  주요 업무    
 >  - SAP ERP System Install
 >  - System Landscape 디자인/관리
 >  - System 업그레이드 전략 수립/수행
@@ -140,8 +140,8 @@
 >  - 런타임 에러 대응
 >  - Database(HANA DB) 백업 관리
 > 
->  기타 업무
->  - [SAP 한글 깨짐 현상 조치]()
+>  기타 업무    
+>  - [SAP 한글 깨짐 현상 조치](https://github.com/KaJaeHyeob/SAP_BC/tree/master/SAP%20ERP%20%ED%95%9C%EA%B8%80%20%EA%B9%A8%EC%A7%90%20%ED%98%84%EC%83%81%20%EC%A1%B0%EC%B9%98#sap-erp-%ED%95%9C%EA%B8%80-%EA%B9%A8%EC%A7%90-%ED%98%84%EC%83%81-%EC%A1%B0%EC%B9%98)
 
 </div>
 </details>
@@ -242,6 +242,6 @@
 </div>
 </details>
 
-### 5) BC 주요 Table 및 View
+### 5) BC 주요 Table 및 View    
 
 
