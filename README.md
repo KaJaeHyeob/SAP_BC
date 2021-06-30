@@ -119,8 +119,9 @@
 <details>
 <summary>업무 목록</summary>
 <div markdown="1">
-
->  - System Install
+ 
+>  주요 업무
+>  - SAP ERP System Install
 >  - System Landscape 디자인/관리
 >  - System 업그레이드 전략 수립/수행
 >  - Client 및 User 관리
@@ -131,11 +132,14 @@
 >  - Performance 관리
 >  - Parameter 관리
 >  - SAP Router 설치 및 OSS(Online Service System) 관리
->  - License 관리
+>  - 제품 License 관리
 >  - Developer & Object Key 관리
 >  - Solman(Solution Manager) 설치/관리
 >  - 런타임 에러 대응
->  - Database 백업 관리
+>  - Database(HANA DB) 백업 관리
+> 
+>  기타 업무
+>  - [SAP 한글 깨짐 현상 조치]()
 
 </div>
 </details>
