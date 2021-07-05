@@ -1,4 +1,6 @@
-# SAP BC
+# SAP BC    
+
+LDCC. SAP BC | SAP ERP | Basis Consultant    
 
 <details>
 <summary>목차 및 링크</summary>
