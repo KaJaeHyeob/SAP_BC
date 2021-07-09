@@ -39,7 +39,10 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 ![Untitled](./image/Untitled.png)
 
  SAP ERP 하나의 시스템 안에는 위와 같이 3계층 구조로 이루어져있다.    
- Presentation Layer에서 사용자가 어떠한 이벤트를 발생시키면 Application Layer가 작동되며, Application Layer에선 Database Layer에 데이터를 요청하여 특정 작업을 수행한다. 더 자세한 작동방식이 궁금하다면, 아래의 "더보기"를 참고하면 되겠다.   
+
+ Presentation Layer에서 사용자가 어떠한 이벤트를 발생시키면 Application Layer가 작동되며, Application Layer에선 Database Layer에 데이터를 요청하여 특정 작업을 수행한다.    
+
+ 더 자세한 작동방식이 궁금하다면, 아래의 "더보기"를 참고하면 되겠다.   
 
 <details>
 <summary>더보기</summary>
@@ -60,9 +63,10 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 > ![Untitled1](./image/Untitled1.png)
 > 
 >  서버가 여러 대일 경우에는 ASCS(ABAP System Central Service)가 락 테이블 관리 및 로드밸런싱 관리 역할을 해주는데, ASCS를 포함하는 하나의 서버를 PAS(Primary Application Server)라 하고, 그 외 나머지 서버들을 AAS(Additional Application Server)라고 한다.    
+> 
 >  ASCS의 ES(Enqueue Server)에서는 서버간의 락을 방지하기 위해 통합 락 테이블을 관리하고, MS(Message Server)에서는 서버들의 DP와 통신하면서 로드밸런싱을 관리한다.    
 > 
->  - 사실 SAP사에서 PAS와 ASCS를 완벽히 분리시켰기 때문에, PAS와 AAS 둘 사이에는 전혀 차이가 없다고 한다. 하지만, NetWeaver 7.0 이하 버전까지는 현재의 PAS와 ASCS가 합쳐진 CI(Central Instance), 현재의 AAS인 DI(Dialog Instance) 개념을 사용했기 때문에 대부분의 사용자들이 PAS와 AAS 둘을 구별하여 사용한다.    
+>  * 사실 SAP사에서 PAS와 ASCS를 완벽히 분리시켰기 때문에, PAS와 AAS 둘 사이에는 전혀 차이가 없다고 한다. 하지만, NetWeaver 7.0 이하 버전까지는 현재의 PAS와 ASCS가 합쳐진 CI(Central Instance), 현재의 AAS인 DI(Dialog Instance) 개념을 사용했기 때문에 대부분의 사용자들이 PAS와 AAS 둘을 구별하여 사용한다.    
 
 </div>
 </details>
@@ -70,7 +74,10 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 ### 4) SAP ERP System Landscape
 
  위에서 하나의 시스템 내에 존재하는 3계층 구조를 살펴보았다면, 이번에는 이 시스템을 몇 개 사용해야 적당한가에 대해서 말해보고자 한다.    
- 대부분의 사용자는 하나의 시스템만을 사용하지 않고, 여러 시스템을 구축해둔다. 주된 목적은 안정성이다. 운영 중인 시스템 내에 문제가 생기지 않도록, 다른 시스템에서 개발 및 테스트를 진행함으로써 안정성을 확보한다. SAP사에서 권장하는 건 3-System Landscape이다.    
+
+ 대부분의 사용자는 하나의 시스템만을 사용하지 않고, 여러 시스템을 구축해둔다. 주된 목적은 안정성이다. 운영 중인 시스템 내에 문제가 생기지 않도록, 다른 시스템에서 개발 및 테스트를 진행함으로써 안정성을 확보한다.    
+
+ SAP사에서 권장하는 방식은 3-System Landscape이다.    
 
 ![Untitled2](./image/Untitled2.png)
 
@@ -87,6 +94,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 ### 1) BC    
 
  직무명으로써의 BC는 "Basis Consultant"의 약어로, SAP ERP의 관리자를 의미하며, 모든 시스템 환경을 총괄하는 역할을 맡는다. 모듈명의로써의 BC는 "Basis Component"의 약어로, BC 직무를 수행하기 위한 SAP ERP 내의 코어 모듈이다.    
+
  "모듈"이라는 것은 SAP ERP 내의 주요 업무 분장에 따라 나눠놓은 프로그램 모음이라고 생각하면 이해하기 쉽다. 모듈 목록은 아래 "모듈 목록"을 참고하면 되겠다.    
 
 <details>
@@ -118,6 +126,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 ### 2) BC 업무    
 
  BC는 SAP ERP의 관리자로 시스템 환경을 총괄하기 때문에, 개발 업무가 주를 이루는 다른 모듈과 다르게 운영 및 관리 업무가 대부분을 차지한다.    
+
  BC 업무 목록은 아래 "업무 목록"을 참고하면 되겠으며, 각 업무에 대한 메뉴얼을 작성하여 링크를 추가적으로 생성할 계획이다.    
 
 <details>
@@ -143,7 +152,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 >  - Database(HANA DB) 백업 관리
 > 
 >  기타 업무    
->  - [SAP 한글 깨짐 현상 조치](https://github.com/KaJaeHyeob/SAP_BC/tree/master/SAP%20ERP%20%ED%95%9C%EA%B8%80%20%EA%B9%A8%EC%A7%90%20%ED%98%84%EC%83%81%20%EC%A1%B0%EC%B9%98#sap-erp-%ED%95%9C%EA%B8%80-%EA%B9%A8%EC%A7%90-%ED%98%84%EC%83%81-%EC%A1%B0%EC%B9%98)
+>  - [SAP ERP 한글 깨짐 현상 조치]()
 
 </div>
 </details>
@@ -151,6 +160,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 ### 3) BC 주요 T-code    
 
  T-code는 "Transaction code"의 약어로, 특정 트랜잭션을 실행시키는 단축 코드를 의미한다. 트랜잭션은 특정 프로그램 및 변수를 설정하여 생성할 수 있다.    
+
  BC가 사용하는 주요 T-code 목록은 아래 "T-code 목록"을 참고하면 되겠다.    
 
 <details>
@@ -221,13 +231,14 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 ### 4) BC 주요 ABAP Program 및 Function Module    
 
  트랜잭션화 시키지 않은 ABAP Program 및 Function Module 중에 종종 사용하는 항목들을 추가로 정리해보고자 한다. ABAP Program은 T-code SE38에서 실행 가능하고, Function Module은 T-code SE37에서 테스트 가능하다.    
+
  BC가 사용하는 주요 항목은 아래 "ABAP Program 목록"과 "Function Module 목록"을 참고하면 되겠다.    
 
 <details>
 <summary>ABAP Program 목록</summary>
 <div markdown="1">
 
->  - RSCCEXPT : Client Copy 예외 테이블 설정
+>  - RSCCEXPT : Client Copy 예외 테이블 설정    
 
 </div>
 </details>
@@ -236,10 +247,10 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 <summary>Function Module 목록</summary>
 <div markdown="1">
 
->  - MENU_FAVORITE_DOWNLOAD : 특정 User로부터 즐겨찾기 항목 다운로드
->  - MENU_FAVORITE_UPLOAD : 특정 User에게 즐겨찾기 항목 업로드
->  - SCCR_LOCK_CLIENT : Client 잠금 설정
->  - SCCR_UNLOCK_CLIENT : Client 잠금 해제
+>  - MENU_FAVORITE_DOWNLOAD : 특정 User로부터 즐겨찾기 항목 다운로드    
+>  - MENU_FAVORITE_UPLOAD : 특정 User에게 즐겨찾기 항목 업로드    
+>  - SCCR_LOCK_CLIENT : Client 잠금 설정    
+>  - SCCR_UNLOCK_CLIENT : Client 잠금 해제    
 
 </div>
 </details>
