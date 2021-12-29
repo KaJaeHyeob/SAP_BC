@@ -262,13 +262,13 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
  SAP ERP의 ABAP Dictionary는 3가지 대분류와 7가지 소분류를 사용하여 Object를 구분시킨다.    
  분류 항목은 아래와 같으며, T-code SE11에서 각 분류 항목으로 나눠진 Object를 조회할 수 있다.    
  
- - Database Object : Table, View    
+ - Database Object : Database Table, View    
  - Type Definition : Data Type, Type Group    
  - ABAP Tools : Domain, Search Help, Lock Object    
 
- 위 분류 항목 중 Table과 View에 대한 개념에 대해서 설명해보고자 한다.    
- Table은 DB에 물리적으로 존재하며 실제로 저장된 데이터이다. 반면에, View는 논리적으로만 존재하며 특정 용도로 사용하기 위해 생성한 가상의 데이터이다.    
- 따라서, Table은 조회 용도로만 사용되고, View를 통해 Table의 데이터를 유지보수하는 게 일반적이다.    
+ 위 분류 항목 중 Database Table과 View에 대한 개념에 대해서 설명해보고자 한다.    
+ Database Table은 DB 내에 실제로 저장되어 있는 물리 데이터이며, 편의상 Table로 줄여서 작성하겠다. View는 하나 이상의 Table로 생성한 논리 데이터이며, 사용하는 용도에 따라 4가지 Type으로 나뉜다.    
+ 따라서, Table은 조회 용도로 사용되고, View를 통해 데이터를 유지보수하는 게 일반적이다.    
  
  View는 용도에 따라 아래와 같이 4가지 Type으로 나눠서 사용하며, 일반적으로 Maintenance View가 주로 사용된다.    
  
