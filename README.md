@@ -267,10 +267,10 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
  - ABAP Tools : Domain, Search Help, Lock Object    
 
  위 분류 항목 중 Database Table과 View에 대한 개념에 대해서 설명해보고자 한다.    
- Database Table은 DB 내에 실제로 저장되어 있는 물리 데이터이며, 편의상 Table로 줄여서 작성하겠다. View는 하나 이상의 Table로 생성한 논리 데이터이며, 사용하는 용도에 따라 4가지 Type으로 나뉜다.    
- 따라서, Table은 조회 용도로 사용되고, View를 통해 데이터를 유지보수하는 게 일반적이다.    
+ Database Table은 DB 내에 실제로 저장되어 있는 물리 데이터이며, 편의상 Table로 줄여서 작성하겠다. View는 하나 이상의 Database Table로 생성한 논리 데이터이며, 사용하는 용도에 따라 4가지 Type으로 나뉜다.    
+ 일반적으로, 데이터 수정은 View를 통해서 JOIN 연산된 여러 Table의 데이터를 조회하고 유지보수하는 방식을 사용한다.    
  
- View는 용도에 따라 아래와 같이 4가지 Type으로 나눠서 사용하며, 일반적으로 Maintenance View가 주로 사용된다.    
+ View는 용도에 따라 아래와 같이 4가지 Type으로 나눠서 사용하며, Maintenance View가 주로 사용된다.    
  
  - Database View : 하나의 Table 또는 2개 이상의 Table을 JOIN 연산하여 생성한 조회 용도의 View    
  - Projection View : 하나의 Table에서 조회하고 싶은 필드만 선택하여 생성한 조회 용도의 View    
