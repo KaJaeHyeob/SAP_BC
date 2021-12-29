@@ -42,7 +42,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
  SAP ERP 하나의 시스템 안에는 위와 같이 3계층 구조로 이루어져있다.    
  Presentation Layer에서 사용자가 어떠한 이벤트를 발생시키면 Application Layer가 작동되며, Application Layer에선 Database Layer에 데이터를 요청하여 특정 작업을 수행한다.    
 
- 더 자세한 작동방식이 궁금하다면, 아래의 "더보기"를 참고하면 되겠다.   
+ 더 자세한 작동방식이 궁금하다면, 아래의 "더보기"를 참고하면 되겠다.    
 
 <details>
 <summary>더보기</summary>
