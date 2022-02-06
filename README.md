@@ -48,7 +48,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 <summary>더보기</summary>
 <div markdown="1">
 
-> 3계층 중에서 어렵게 느껴질 수도 있는 부분인 Application Layer에 대해서 좀 더 자세하게 작성해보도록 하겠다. BC 직무가 아니라면 굳이 볼 필요 없는 부분이다.    
+> 3계층 중에서 어렵게 느껴질 수도 있는 부분인 Application Layer에 대해서 좀 더 자세하게 작성해보도록 하겠다.    
 > 
 > Application Layer의 중요한 구성요소 두 가지는 DP(Dispatcher), WP(Work Process)이다.    
 > DP는 사용자가 발생시킨 이벤트와 부합하는 WP로 해당 작업을 분배시키는 역할을 한다.    
@@ -235,7 +235,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
  트랜잭션화 시키지 않은 ABAP Program 및 Function Module 중에 종종 사용하는 항목들을 추가로 정리해보고자 한다.    
  ABAP Program은 T-code SE38에서 실행 가능하고, Function Module은 T-code SE37에서 테스트 가능하다.    
 
- BC가 사용하는 주요 항목은 아래 "ABAP Program 목록"과 "Function Module 목록"을 참고하면 되겠다.    
+ BC가 사용하는 주요 목록은 아래 "ABAP Program 목록"과 "Function Module 목록"을 참고하면 되겠다.    
 
 <details>
 <summary>ABAP Program 목록</summary>
@@ -259,25 +259,23 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 </details>
 
 ### 5) BC 주요 Table 및 View    
- SAP ERP의 ABAP Dictionary는 3가지 대분류와 7가지 소분류를 사용하여 Object를 구분시킨다.    
- 분류 항목은 아래와 같으며, T-code SE11에서 각 분류 항목으로 나눠진 Object를 조회할 수 있다.    
+ SAP ERP의 ABAP Dictionary는 3가지 대분류와 7가지 소분류를 사용하여 Dictionary Object를 구분시킨다.    
+ 분류 항목은 아래와 같으며, T-code SE11에서 각 분류 항목으로 나눠진 Dictionary Object를 조회할 수 있다.    
  
  - Database Object : Database Table, View    
  - Type Definition : Data Type, Type Group    
  - ABAP Tools : Domain, Search Help, Lock Object    
 
- 위 분류 항목 중 Database Table과 View에 대한 개념에 대해서 설명해보고자 한다.    
- Database Table은 DB 내에 실제로 저장되어 있는 물리 데이터이며, 편의상 Table로 줄여서 작성하겠다. View는 하나 이상의 Database Table로 생성한 논리 데이터이며, 사용하는 용도에 따라 4가지 Type으로 나뉜다.    
- 일반적으로, 데이터 수정은 View를 통해서 JOIN 연산된 여러 Table의 데이터를 조회하고 유지보수하는 방식을 사용한다.    
- 
- View는 용도에 따라 아래와 같이 4가지 Type으로 나눠서 사용하며, Maintenance View가 주로 사용된다.    
+ 위 분류 항목 중 Database Table과 View에 대한 개념에 대해서 설명해보고자 한다. Database Table은 편의상 Table로 줄여서 작성하겠다.    
+ 먼저, Table은 DB 내에 실제로 저장되어 있는 물리 데이터이다. 반면에, View는 하나 이상의 Table로 생성한 논리 데이터이며, 사용하는 용도에 따라 4가지 Type으로 나뉜다.    
  
  - Database View : 하나의 Table 또는 2개 이상의 Table을 JOIN 연산하여 생성한 조회 용도의 View    
  - Projection View : 하나의 Table에서 조회하고 싶은 필드만 선택하여 생성한 조회 용도의 View    
  - Maintenance View : Foreign Key 관계인 여러 개의 Table을 JOIN 연산하여 생성한 유지보수 용도의 View    
  - Help View : Search Help를 구현하기 위해 생성한 Selection Method 용도의 View    
 
- BC가 주로 조회하는 항목은 아래 "Table 목록"과 "View 목록"을 참고하면 되겠다.    
+ 일반적으로, 데이터 수정은 Maintenance View를 통해서 JOIN 연산된 여러 Table의 데이터를 조회하고 유지보수하는 방식을 사용한다.    
+ BC가 사용하는 주요 목록은 아래 "Table 목록"과 "View 목록"을 참고하면 되겠다.    
  
 <details>
 <summary>Table 목록</summary>
