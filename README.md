@@ -259,6 +259,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 </details>
 
 ### 5) BC 주요 Table 및 View    
+
  SAP ERP의 ABAP Dictionary는 3가지 대분류와 7가지 소분류를 사용하여 Dictionary Object를 구분시킨다.    
  분류 항목은 아래와 같으며, T-code SE11에서 각 분류 항목으로 나눠진 Dictionary Object를 조회할 수 있다.    
  
