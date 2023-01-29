@@ -152,7 +152,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 > - Database(HANA DB) 백업 관리
 > 
 > 기타 업무    
-> - [SAP ERP 한글 깨짐 현상 조치](https://github.com/KaJaeHyeob/SAP_BC/tree/master/SAP%20ERP%20%ED%95%9C%EA%B8%80%20%EA%B9%A8%EC%A7%90%20%ED%98%84%EC%83%81%20%EC%A1%B0%EC%B9%98#sap-erp-%ED%95%9C%EA%B8%80-%EA%B9%A8%EC%A7%90-%ED%98%84%EC%83%81-%EC%A1%B0%EC%B9%98)
+> - [한글 깨짐 현상 조치](https://github.com/KaJaeHyeob/SAP_BC/tree/master/%ED%95%9C%EA%B8%80%20%EA%B9%A8%EC%A7%90%20%ED%98%84%EC%83%81%20%EC%A1%B0%EC%B9%98#sap-erp-%ED%95%9C%EA%B8%80-%EA%B9%A8%EC%A7%90-%ED%98%84%EC%83%81-%EC%A1%B0%EC%B9%98)
 > - [시작화면 T-code 출력 설정](https://github.com/KaJaeHyeob/SAP_BC/tree/master/%EC%8B%9C%EC%9E%91%ED%99%94%EB%A9%B4%20T-code%20%EC%B6%9C%EB%A0%A5%20%EC%84%A4%EC%A0%95#%EC%8B%9C%EC%9E%91%ED%99%94%EB%A9%B4-t-code-%EC%B6%9C%EB%A0%A5-%EC%84%A4%EC%A0%95)
 
 </div>
