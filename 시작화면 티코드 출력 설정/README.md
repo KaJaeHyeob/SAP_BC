@@ -1,4 +1,4 @@
-# SAP ERP 한글 깨짐 현상 조치
+# 시작화면 T-code 출력 설정
 
 <details>
 <summary>목차 및 링크</summary>
