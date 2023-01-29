@@ -1,4 +1,4 @@
-# SAP ERP User 관리
+# User 관리
 
 <details>
 <summary>목차 및 링크</summary>
