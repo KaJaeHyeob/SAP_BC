@@ -137,7 +137,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 > - System Landscape 디자인/관리
 > - System 업그레이드 전략 수립/수행
 > - SAP ERP Client 관리
-> - [SAP ERP User 관리]()
+> - [SAP ERP User 관리](https://github.com/KaJaeHyeob/SAP_BC/tree/master/SAP%20ERP%20User%20%EA%B4%80%EB%A6%AC#sap-erp-user-%EA%B4%80%EB%A6%AC)
 > - CTS(Change and Transport System) 관리
 > - Snote 및 SP 관리
 > - 배치잡(Batch Job) 관리
@@ -152,8 +152,8 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 > - Database(HANA DB) 백업 관리
 > 
 > 기타 업무    
-> - [SAP ERP 한글 깨짐 현상 조치]()
-> - [시작화면 티코드 출력 설정]()
+> - [SAP ERP 한글 깨짐 현상 조치](https://github.com/KaJaeHyeob/SAP_BC/tree/master/SAP%20ERP%20%ED%95%9C%EA%B8%80%20%EA%B9%A8%EC%A7%90%20%ED%98%84%EC%83%81%20%EC%A1%B0%EC%B9%98#sap-erp-%ED%95%9C%EA%B8%80-%EA%B9%A8%EC%A7%90-%ED%98%84%EC%83%81-%EC%A1%B0%EC%B9%98)
+> - [시작화면 T-code 출력 설정](https://github.com/KaJaeHyeob/SAP_BC/tree/master/%EC%8B%9C%EC%9E%91%ED%99%94%EB%A9%B4%20T-code%20%EC%B6%9C%EB%A0%A5%20%EC%84%A4%EC%A0%95#%EC%8B%9C%EC%9E%91%ED%99%94%EB%A9%B4-t-code-%EC%B6%9C%EB%A0%A5-%EC%84%A4%EC%A0%95)
 
 </div>
 </details>
