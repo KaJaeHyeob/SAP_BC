@@ -153,6 +153,7 @@ LDCC. SAP BC | SAP ERP | Basis Consultant
 > 
 > 기타 업무    
 > - [SAP ERP 한글 깨짐 현상 조치]()
+> - [시작화면 티코드 출력 설정]()
 
 </div>
 </details>
